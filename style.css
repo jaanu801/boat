@@ -1309,13 +1309,13 @@ img {
 .icon-container { position: relative; cursor: pointer; font-size: 18px; color: #d1d5db; }
 .tooltip { position: absolute; bottom: -30px; left: 50%; transform: translateX(-50%); background-color: #2c2c2c; padding: 5px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; display: none; }
 .icon-container:hover .tooltip { display: block; }
-.user-dropdown { position: relative; }
-.user-menu { display: none; position: absolute; top: 30px; right: -10px; background-color: #2c2c2c; border-radius: 8px; padding: 15px; width: 240px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); z-index: 1001; }
-.user-greeting { font-size: 14px; font-weight: bold; color: #ffffff; margin: 0 0 4px 0; }
-.user-instruction { font-size: 12px; color: #ccc; line-height: 1.4; margin: 0 0 12px 0; }
-.user-login-prompt { font-size: 12px; color: #ccc; margin: 0; }
-.user-menu button { background-color: transparent; border: 1px solid #ccc; color: #fff; padding: 6px 12px; font-size: 13px; border-radius: 4px; cursor: pointer; width: 100%; margin-bottom: 8px; }
-.user-dropdown:hover .user-menu { display: block; }
+.userdropdown { position: relative; }
+.usermenu { display: none; position: absolute; top: 30px; right: -10px; background-color: #2c2c2c; border-radius: 8px; padding: 15px; width: 240px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); z-index: 1001; }
+.hello { font-size: 14px; font-weight: bold; color: #ffffff; margin: 0 0 4px 0; }
+.account { font-size: 12px; color: #ccc; line-height: 1.4; margin: 0 0 12px 0; }
+.login1 { font-size: 12px; color: #ccc; margin: 0; }
+.usermenu button { background-color: transparent; border: 1px solid #ccc; color: #fff; padding: 6px 12px; font-size: 13px; border-radius: 4px; cursor: pointer; width: 100%; margin-bottom: 8px; }
+.userdropdown:hover .usermenu { display: block; }
 
 /* --- HERO SLIDER (AUTOPLAY FORWARD DIRECTION) STYLES --- */
 .slider {
